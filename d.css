@@ -1,0 +1,287 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #000;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #010;
+    color: white;
+}
+html {
+
+    background:#000000;
+
+}
+
+body {
+
+    margin: 0;
+
+    padding:0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    line-height: 1.5em;
+
+    
+
+    
+    width: 100%;
+
+    display: table;
+
+}
+
+h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    color: #66b300;
+
+    margin-top: 0px;
+
+}
+
+
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+#menu li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+ li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #555}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#Nevigation ul {
+    list-style-type: none;
+   margin-left:10px;
+   margin-top:0px;
+    padding: 0;
+    width: 11%;
+    background-color: #000;
+    position: fixed;
+    height:100%;
+    overflow: auto;
+
+
+
+}
+
+
+#Nevigation li a {
+
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: right;
+    color: #FFFFFF;
+   
+    display: block;
+   
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#Nevigation li a.active {
+    background-color:#555;
+    color: white;
+}
+
+#Nevigation li a:hover:not(.active) {
+    background-color: #555;
+    
+     color: #FFFF00;
+}
+
+#container_b {
+ height :500px;
+  margin-left:125px; 
+  
+    width: 800px;
+
+    background: url(images/C.jpg) ;
+}
+
+#container_b_n1 {
+ height :800px;
+  margin-left:125px; 
+  
+    width: 800px;
+    background:url(images/content_bg_2.jpg) repeat;
+}
+
+#container_b_regi {
+ height :500px;
+  margin-left:125px; 
+  
+    width: 800px;
+    background:url(images/content_bg_2.jpg) repeat;
+}
+
+
+
+
+
+#container_b_login {
+ height :500px;
+  margin-left:125px; 
+  
+    width: 800px;
+    background:url(images/D_F.jpg) no-repeat;
+}
+
+#container_b_map {
+ height :500px;
+  margin-left:125px; 
+  
+    width: 800px;
+    background:url(images/Map.jpg) no-repeat;
+}
+
+
+
+
+#container_a{
+ height:800px;
+   
+  
+    width: 1000px;
+
+    
+}
+
+
+
+#content {
+    width: 800px;
+    height: 312px;
+     margin-left:125px; 
+    background:url(images/content_bg.jpg) no-repeat;
+}
+
+#content_bg {
+    width: 800px;
+    height: 312px;
+     margin-left:125px; 
+    background:url(images/content_bg_2.jpg) no-repeat;
+}
+
+
+
+#content_bg2 {
+    margin-left:125px;
+    width: 800px;
+    height:800px;
+     
+    background:url(images/content_bg_2.jpg) repeat;
+}
+
+
